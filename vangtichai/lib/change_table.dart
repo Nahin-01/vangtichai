@@ -20,7 +20,7 @@ class ChangeTable extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final notes = ChangeCalculator.denominations;
+    const notes = ChangeCalculator.denominations;
 
     if (!twoColumns) {
       return Column(
